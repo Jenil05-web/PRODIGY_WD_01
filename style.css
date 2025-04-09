@@ -1,0 +1,63 @@
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;
+    background: linear-gradient(135deg, #FFC1CC, #F5D6E5, #D9ECF2, #E3F9E0);  }
+  .navbar {
+    width: 90%; 
+    height: 3rem; 
+    background:hotpink;
+   padding: 2rem;
+   max-width: 600px;
+   border-radius: 1rem;
+   box-shadow: 0 8px 16px rgba(0 , 0, 0, 0.2);
+   overflow: hidden;
+   transition: height 0.4s ease;
+  }
+  .navbar.expanded{
+    height: 18rem;
+  }
+  .hover-button{
+    width: 5rem;
+    height: 3rem;
+    color: aqua;
+    background-color: black;
+    transition: all 0.5s ease;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    position:relative;
+    left: 15rem;
+    font-weight: 600;
+
+  }
+  .hover-button:hover{
+    color: black;
+    background-color: antiquewhite;
+    transform: scale(1.1);
+    letter-spacing: 1px;
+    
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-weight: 400;
+  
+  }
+  .nav-item a {
+    text-decoration: none;
+    color:blueviolet;
+    font-weight: bold;
+    transition: color 0.5s ease;
+  }
+  .nav-item a:hover{
+    color :hotpink;
+  }
+ 
